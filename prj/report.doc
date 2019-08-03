@@ -1,0 +1,66 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+COMPUTER ARCHITECTURE
+PROJECT REPORT
+
+
+
+
+
+
+
+
+
+
+			  By							
+S. Ashok Pon Kumar(20032115),
+Nithyanandam (20032237),                 
+             				BE VI Sem CSE AB Batch.          
+
+
+
+HYBRID PREDICTOR
+
+Aim:
+	To implement a Hybrid Predictors and to test their performance with different sets of inputs.
+Description:
+	Branch prediction is of great importance to deep-pipeline design. Speculative execution is necessary to more fully utilize chip resources, and the need for issuing correct speculative instructions leads to demand for very accurate predictors. Single predictors have been successful in predicting branches with high accuracy for many workloads, though the increasing number of instructions in-flight demands increasingly more accurate predictors. Hybrid predictors show promise of fulfilling this demand, combining the capabilities of many individual predictors at the cost of increased predictor size.
+	Here is an implementation of a quickly reconfigurable hybrid predictor, intended to evaluate the effectiveness of many different predictor combinations. 
+Working:
+					
+
+
+
+
+
+
+Output:
+
+Here is a comparison of the working of the different predictors in the hybrid predictor and the working of the hybrid predictor as a whole
+
+In each program 50000 lines were executed
+
+for printf program..
+
+hybrid predictor – 768 wrong guesses
+
+branch taken predictor – 3823
+
+branch not taken –4817
+
+bimod predictors –637
+
+2 level predictors –1024
+
+combinational predictors --596
+
